@@ -1,0 +1,17 @@
+org\jeycode\dtolib\dtos\DtoToCreateCustomer.class
+org\jeycode\lombok\LombokProof.class
+org\jeycode\dtolib\converters\GenericMapStructMapper.class
+org\jeycode\dtolib\entities\Customer$CustomerBuilder.class
+org\jeycode\dtolib\dtos\DtoToCreateCustomer$DtoToCreateCustomerBuilder.class
+org\jeycode\dtolib\converters\GenericModelMapper.class
+org\jeycode\dtolib\entities\Car.class
+org\jeycode\lombok\User.class
+org\jeycode\dtolib\entities\Message.class
+org\jeycode\dtolib\mapstruct\ApplicationMapStruct.class
+org\jeycode\dtolib\dtos\MixDto.class
+org\jeycode\dtolib\entities\Customer.class
+org\jeycode\dtolib\converters\GenericMapStructMapperImpl.class
+org\jeycode\dtolib\entities\Car$CarBuilder.class
+org\jeycode\dtolib\dtos\CustomerComplexDto.class
+org\jeycode\dtolib\dtos\CustomerSimpleDto.class
+org\jeycode\dtolib\modelmapper\ApplicationModelMapper.class
