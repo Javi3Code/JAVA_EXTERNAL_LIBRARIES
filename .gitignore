@@ -1,0 +1,7 @@
+
+FAKE-DATA-xls
+*.metadata
+*.classpath
+*.project
+*.settings
+/target/
