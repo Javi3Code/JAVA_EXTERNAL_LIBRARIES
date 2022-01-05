@@ -26,6 +26,7 @@
 		<slf4j.version>1.7.32</slf4j.version>
 		<apache.poi.version>5.0.0</apache.poi.version>
 		<javafaker.version>1.0.2</javafaker.version>
+		<jmh.version>1.27</jmh.version>
 	</properties>
 
 	<dependencies>
@@ -95,6 +96,16 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
 			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjdk.jmh</groupId>
+			<artifactId>jmh-core</artifactId>
+			<version>${jmh.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjdk.jmh</groupId>
+			<artifactId>jmh-generator-annprocess</artifactId>
+			<version>${jmh.version}</version>
 		</dependency>
 	</dependencies>
 

@@ -8,5 +8,6 @@
 - MapStruct
 - Selma
 - BeanMapper
+- JMH - Benchmark
 - Zip4j
 - Java Faker | Apache POI
