@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#section-header {
+    background-color: #f5f5f5;
+    text-align: center;
+    height: fit-content;
+}
+
+button {
+    background-color: #1dafa8;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+}
+
+#employees-view {
+    background-color: #d9ecec;
+}
+
+#employees-view #employees-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.employee-card {
+    background-color: #f5f5f5;
+    text-align: center;
+    height: fit-content;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 9px 15px 0 rgba(75, 155, 207, 0.2), 0 15px 30px 0 rgba(111, 15, 221, 0.19);
+}
+
+.employee-card header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.employee-card header img {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(142, 213, 241);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+    box-shadow: 0 9px 15px 0 rgba(75, 155, 207, 0.2), 0 15px 30px 0 rgba(111, 15, 221, 0.19);
+}
+
+.info-section ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+    box-shadow: 0 9px 15px 0 rgba(75, 155, 207, 0.2), 0 15px 30px 0 rgba(111, 15, 221, 0.19);
+    background-color: aliceblue;
+}
+
+.info-section ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 10px;
+}

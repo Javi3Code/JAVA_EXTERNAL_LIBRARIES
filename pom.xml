@@ -27,6 +27,7 @@
 		<apache.poi.version>5.0.0</apache.poi.version>
 		<javafaker.version>1.0.2</javafaker.version>
 		<jmh.version>1.27</jmh.version>
+		<j2html.version>1.5.0</j2html.version>
 	</properties>
 
 	<dependencies>
@@ -106,6 +107,11 @@
 			<groupId>org.openjdk.jmh</groupId>
 			<artifactId>jmh-generator-annprocess</artifactId>
 			<version>${jmh.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.j2html</groupId>
+			<artifactId>j2html</artifactId>
+			<version>${j2html.version}</version>
 		</dependency>
 	</dependencies>
 
