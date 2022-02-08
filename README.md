@@ -11,3 +11,4 @@
 - JMH - Benchmark
 - Zip4j
 - Java Faker | Apache POI
+- J2Html
